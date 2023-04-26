@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 import numpy as np
-import pickle
+import json
 from math import log
 c1, c2 = st.columns((1,3))
 ###processing labeled data && getting totals
@@ -17,7 +17,7 @@ dscatter = pd.read_csv('3dscatter.csv')
 dtset = pd.read_csv('dataset.csv')
 
 with open('scores.pickle', 'rb') as handle:
-    scores = pickle.load(handle)
+    scores = json.load(handle)
 
 
 year = c1.slider("Year", 2017, 2021)
