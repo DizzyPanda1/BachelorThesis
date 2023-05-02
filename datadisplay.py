@@ -9,15 +9,9 @@ st.set_page_config(layout='wide', page_title="Mattia Fornasiero's Thesis", page_
 
 c1, c2 = st.columns((1,3))
 ###processing labeled data && getting totals
+
 d = pd.read_csv('finalfr.csv')
-
-
-
-
-###
-df = pd.read_csv('final.csv')
 dscatter = pd.read_csv('3dscatter.csv')
-dtset = pd.read_csv('dataset.csv')
 
 year = c1.slider("Year", 2017, 2021)
 company = c1.radio('Choose the organization', d['name'].unique())
@@ -96,4 +90,5 @@ fig = px.scatter_3d(
 )
 fig.update_traces(marker_size=8)
 
-st.plotly_chart(fig)
+cont = st.container()
+cont.plotly_chart(fig, use_container_width=True)
