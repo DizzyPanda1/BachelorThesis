@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 import numpy as np
-import pickle
 from math import log
 
 st.set_page_config(layout='wide', page_title="Mattia Fornasiero's Thesis", page_icon="🅱️")
@@ -19,10 +18,6 @@ d = pd.read_csv('finalfr.csv')
 df = pd.read_csv('final.csv')
 dscatter = pd.read_csv('3dscatter.csv')
 dtset = pd.read_csv('dataset.csv')
-
-with open('scores.pickle', 'rb') as handle:
-    scores = pickle.load(handle)
-
 
 year = c1.slider("Year", 2017, 2021)
 company = c1.radio('Choose the organization', d['name'].unique())
