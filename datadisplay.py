@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 import numpy as np
-import pickle
 from math import log
 
 st.set_page_config(layout='wide', page_title="Mattia Fornasiero's Thesis", page_icon="🅱️")
