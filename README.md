@@ -35,7 +35,7 @@ Sustainability reports will be sourced from major Italian companies' websites, w
 13. We store these results in a DataFrame containing both the by the total number of sentences per topic and the total number of labeled sentences in each document.
 14. As expected, we obtain a DataFrame object with on each row the sustainability report for a company in a given year, with as many columns as the topics found plus the control variables.
 15. We implement OLS and Ridge regression to investigate the relationship.
-16. 
+
 ## Conclusions and Discussion
 The study, conducted on 20 Italian listed companies over five years, found a positive link between the extent of sustainability reporting and actual performance, particularly in social and governance aspects. However, a negative correlation was observed in environmental ratings, indicating potential discrepancies. Further analysis is warranted to explore specific topics' effects and detect greenwashing practices. The study's findings hold implications for performance evaluation, investor decisions, stakeholder engagement, risk management, and regulatory compliance.
 
