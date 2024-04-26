@@ -1,4 +1,9 @@
 # Bachelor Thesis Project 
+
+The results of the analysis can be visualised [here](https://dizzypanda1-bachelorthesis-datadisplay-uuo8sl.streamlit.app/)
+
+The full project is better described in BachelorThesis.pdf
+
 ## Introduction
 In recent years, the significance of sustainability in business management has grown exponentially. Driven by regulatory pressure and consumer demand, firms are increasingly expected to improve their environmental and social standards alongside their economic performance. With the rise of stakeholder theory by Freeman & Mcvea (2001), companies began incorporating sustainability considerations into their decision-making processes, aiming to balance the interests of shareholders with those of stakeholders. Post the 2008 financial crisis, sustainability reporting emerged as a tool for firms to demonstrate compliance with governance standards and disclose their environmental and social impacts. Now, as of 2023, sustainability reporting has become commonplace, mandated by regulations such as the EU's Non-Financial Reporting Directive.
 
@@ -34,4 +39,3 @@ Sustainability reports will be sourced from major Italian companies' websites, w
 ## Conclusions and Discussion
 The study, conducted on 20 Italian listed companies over five years, found a positive link between the extent of sustainability reporting and actual performance, particularly in social and governance aspects. However, a negative correlation was observed in environmental ratings, indicating potential discrepancies. Further analysis is warranted to explore specific topics' effects and detect greenwashing practices. The study's findings hold implications for performance evaluation, investor decisions, stakeholder engagement, risk management, and regulatory compliance.
 
-The results of the analysis can be visualised [here](https://dizzypanda1-bachelorthesis-datadisplay-uuo8sl.streamlit.app/)
